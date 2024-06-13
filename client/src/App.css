@@ -1,0 +1,48 @@
+ul {
+  background-color: black;
+  display: flex;
+  padding: 18px 0px;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 50px;
+  position: relative;
+}
+li {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.piechart {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translatex(70%);
+}
+
+.linegraph {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bargraph {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
